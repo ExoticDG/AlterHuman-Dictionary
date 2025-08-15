@@ -1,21 +1,5 @@
 import 'dotenv/config';
-import { getRPSChoices } from './game.js';
-import { capitalize, InstallGlobalCommands } from './utils.js';
-
-// Get the game choices from game.js
-function createCommandChoices() {
-  const choices = getRPSChoices();
-  const commandChoices = [];
-
-  for (let choice of choices) {
-    commandChoices.push({
-      name: capitalize(choice),
-      value: choice.toLowerCase(),
-    });
-  }
-
-  return commandChoices;
-}
+import { InstallGlobalCommands } from './utils.js';
 
 // Simple test command
 const TEST_COMMAND = {
@@ -27,16 +11,15 @@ const TEST_COMMAND = {
 };
 
 // Command containing options
-const CHALLENGE_COMMAND = {
-  name: 'challenge',
-  description: 'Challenge to a match of rock paper scissors',
+const DICTIONARY_COMMAND = {
+  name: 'dictionary',
+  description: 'Look up a term in the Alterhuman Dictionary',
   options: [
     {
       type: 3,
-      name: 'object',
-      description: 'Pick your object',
+      name: 'term',
+      description: 'The term to look up',
       required: true,
-      choices: createCommandChoices(),
     },
   ],
   type: 1,
@@ -44,6 +27,6 @@ const CHALLENGE_COMMAND = {
   contexts: [0, 2],
 };
 
-const ALL_COMMANDS = [TEST_COMMAND, CHALLENGE_COMMAND];
+const ALL_COMMANDS = [TEST_COMMAND, DICTIONARY_COMMAND];
 
 InstallGlobalCommands(process.env.APP_ID, ALL_COMMANDS);

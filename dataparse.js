@@ -2,7 +2,7 @@ import fs from 'fs';
 import { parseString } from 'xml2js';
 
 // Read the XML file
-const xml = fs.readFileSync('dataset.xml', 'utf8');
+const xml = fs.readFileSync('dictionary.xml', 'utf8');
 
 let dictionaryData;
 
