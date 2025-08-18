@@ -18,6 +18,7 @@
   </entry>
   <entry>
     <term>Aliumkind:</term>
+    <term>aliumthrope</term>
     <definition>Alternatively called 'aliumthrope'. An identity describing a disconnect/detachment from humanity, regardless of why or if they’re human/alterhuman/nonhuman. Alternatively, having a connection/attachment to nonhumanity.</definition>
   </entry>
   <entry>
@@ -74,14 +75,17 @@
   </entry>
   <entry>
     <term>Astral Shift:</term>
+    <term>a-shift</term>
     <definition>Also called an a-shift. A shift where one takes on the form of their kin/therio/fictotype within the astral plane.</definition>
   </entry>
   <entry>
     <term>Aura Shift:</term>
+    <term>au-shift</term>
     <definition>Also called an au-shift. A shift where one's aura changes to reflect their kin/therio/fictotype.</definition>
   </entry>
   <entry>
     <term>Auxbeing:</term>
+    <term>auxlibeing</term>
     <definition>Also called auxlibeing. A subterm of the broader 'auxlian'. Describes someone who has an alterhuman identity that appears as or imitates humanity, but isn't truly human.</definition>
   </entry>
   <entry>
@@ -122,6 +126,7 @@
   </entry>
   <entry>
     <term>Cladokin:</term>
+    <term>cladotherian</term>
     <definition>Alternatively called cladotherian. A subcategory of otherkin wherein an individual does not identify as a distinct species, but instead a broader identity encompassing an entire genus (such as Canis or Canidea), or a larger grouping.</definition>
   </entry>
   <entry>
@@ -130,6 +135,7 @@
   </entry>
   <entry>
     <term>Clinical Lycanthropy:</term>
+    <term>clinical zoanthropy</term>
     <definition>A psychiatric syndrome within which the patient has the delusional belief of turning into a wolf. Also known as clinical zoanthropy.</definition>
   </entry>
   <entry>
@@ -150,6 +156,7 @@
   </entry>
   <entry>
     <term>Constelic:</term>
+    <term>stel</term>
     <definition>Alternatively shortened to 'stel'. Refers to those that adopt an identity(s) throughout their lives. Constelic individuals can have any number of constelic identities, and the amount might fluctuate throughout their lifetime. You are not born with a constel, and stels may not be permanent. Constelic does not use 'with' or 'as' variations, and constels do not go by whether or not they're chosen.</definition>
   </entry>
   <entry>
@@ -170,6 +177,7 @@
   </entry>
   <entry>
     <term>Demihuman:</term>
+    <term>demi-human</term>
     <definition>Alternatively written as 'demi-human'. A being who is partially human, and partially nonhuman.</definition>
   </entry>
   <entry>
@@ -230,6 +238,8 @@
   </entry>
   <entry>
     <term>Erstian:</term>
+    <term>erstbeing</term>
+    <term>erstcho</term>
     <definition>Alternatively called erstbeing or erstcho. A term for those who initially had a chosen alterhuman identity, which then later became unchosen.</definition>
   </entry>
   <entry>
@@ -270,10 +280,14 @@
   </entry>
   <entry>
     <term>Fenikae:</term>
+    <term>phenixic</term>
+    <term>phoenixal</term>
     <definition>Alternatively called phenixic and phoenixal. A term that describes alterhumans who believe that they died or otherwise left their past life, and were born again into this one. They may additionally believe that this process has happened many times before, and will continue in the future.</definition>
   </entry>
   <entry>
     <term>Fictanthrope:</term>
+    <term>fictiotherian</term>
+    <term>fictherian</term>
     <definition>Alternatively called fictiotherian or fictherian. A nonhuman or nonhuman-identifying being with a human fictotype.</definition>
   </entry>
   <entry>
@@ -286,6 +300,7 @@
   </entry>
   <entry>
     <term>Fictionkin:</term>
+    <term>mediakin</term>
     <definition>A subcategory of otherkin for when one identifies as a fictional character, species, item, substance, and/or anything related to fiction. Also known as mediakin. Originally, those who identified as a fictional character were called otakukin, or otakin, but these terms have largely fallen out of use.</definition>
   </entry>
   <entry>
@@ -334,6 +349,7 @@
   </entry>
   <entry>
     <term>Graymuzzle:</term>
+    <term>greymuzzle</term>
     <definition>Alternatively spelled 'greymuzzle'. A therian who has actively participated in the therian community for many years.</definition>
   </entry>
   <entry>
@@ -350,6 +366,7 @@
   </entry>
   <entry>
     <term>Headspace:</term>
+    <term>inner world</term>
     <definition>Alternatively known as an inner world. A place that members of a system can visit or inhabit, where they can talk to other headmates.</definition>
   </entry>
   <entry>
@@ -366,6 +383,7 @@
   </entry>
   <entry>
     <term>Humanmore:</term>
+    <term>overhuman</term>
     <definition>Alternatively known as 'overhuman'. Being human, but also alterhuman. The user still considers themself human in some way, and finds importance with both their humanity and their alterhumanity.</definition>
   </entry>
   <entry>
@@ -462,6 +480,7 @@
   </entry>
   <entry>
     <term>Mental Shift:</term>
+    <term>m-shift</term>
     <definition>Also called an m-shift. A shift where one experiences what they believe to resemble the mentality and cognitive processes of their kintype.</definition>
   </entry>
   <entry>
@@ -518,6 +537,7 @@
   </entry>
   <entry>
     <term>Ostalike(n):</term>
+    <term>otherlike(n)</term>
     <definition>Also called otherlike(n). A personal identity which describes being 'like' another entity (such as having similar mannerisms, traits, behaviors, ect) on an integral level.</definition>
   </entry>
   <entry>
@@ -598,6 +618,7 @@
   </entry>
   <entry>
     <term>Phantom Shift:</term>
+    <term>ph-shift</term>
     <definition>Also called a ph-shift. A shift where one experiences non-corporeal body parts associated with their kintype.</definition>
   </entry>
   <entry>
@@ -606,10 +627,12 @@
   </entry>
   <entry>
     <term>Physical Shift:</term>
+    <term>p-shift</term>
     <definition>Also called a p-shift. When one physically becomes their kin/therio/fictotype. This is not thought to be possible.</definition>
   </entry>
   <entry>
     <term>Phytanthrope:</term>
+    <term>plantkin</term>
     <definition>Also called plantkin. An individual who identifies as a species of plant.</definition>
   </entry>
   <entry>
@@ -694,6 +717,7 @@
   </entry>
   <entry>
     <term>Therianthrope:</term>
+    <term>therian</term>
     <definition>Sometimes shortened to therian. Beings who identify, in some intrinsic way, as an animal.</definition>
   </entry>
   <entry>
@@ -750,14 +774,19 @@
   </entry>
   <entry>
     <term>Vairel:</term>
+    <term>vaire</term>
     <definition>Alternatively known as 'vaire'. A term describing one who unequivocally and involuntarily identifies as something other than human due to comorbid neurodivergencies. (Example: One who unequivocally and involuntarily identifies as a cat due to being schizo-spec and amistic could identify as a vairecat, catvairel, and/or refer to their experience as 'schizo-amistic catvairelity' or simply 'catvairelity.')</definition>
   </entry>
   <entry>
     <term>Varsex:</term>
+    <term>varisex</term>
+    <term>sex variant</term>
     <definition>Alternatively known as 'varisex' or 'sex variant'. A label for anyone who does not completely conform to the societal and cultural ideas or roles of sex, including psychological, physical, skeletal and more.</definition>
   </entry>
   <entry>
     <term>Vianthromorph:</term>
+    <term>vianthrope</term>
+    <term>viarian</term>
     <definition>Alternatively known as 'vianthrope' or 'viarian'. A polymorph/shapeshifter who’s appearance fluctuates in percentage or ratio of human/humanoid/non-humanoid/nonhuman traits.</definition>
   </entry>
   <entry>

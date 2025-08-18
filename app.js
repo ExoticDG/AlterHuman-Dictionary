@@ -48,13 +48,13 @@ app.post('/interactions', verifyKeyMiddleware(process.env.PUBLIC_KEY), async fun
 
     if (name === 'dictionary') {
       const term = data.options[0].value;
-      const definition = getDefinition(term);
+      const result = getDefinition(term);
 
-      if (definition) {
+      if (result) {
         return res.send({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `**${term}**: ${definition}`,
+            content: `**${result.term}**: ${result.definition}`,
           },
         });
       } else {

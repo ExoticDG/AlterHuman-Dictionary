@@ -18,22 +18,30 @@ parseString(xml, (err, result) => {
 /**
  * Get the definition for a given term.
  * @param {string} term - The term to search for.
- * @returns {string|null} The definition of the term, or null if not found.
+ * @returns {{term: string, definition: string}|null} The main term and definition, or null if not found.
  */
 export function getDefinition(term) {
   if (!dictionaryData) {
-    return 'The dictionary data is not available.';
+    return null;
   }
 
   const entry = dictionaryData.find((e) => {
-    // The term from XML might have a colon at the end, so we'll handle that.
-    // Also, we'll do a case-insensitive search.
-    const entryTerm = e.term[0].replace(/:$/, '').toLowerCase();
-    return entryTerm === term.toLowerCase();
+    // The entry can have multiple terms. We check if any of them match.
+    return e.term.some((entryTerm) => {
+      // The term from XML might have a colon at the end, so we'll handle that.
+      // Also, we'll do a case-insensitive search.
+      const cleanedEntryTerm = entryTerm.replace(/:$/, '').toLowerCase();
+      return cleanedEntryTerm === term.toLowerCase();
+    });
   });
 
   if (entry) {
-    return entry.definition[0];
+    // The main term is the first one, without the colon.
+    const mainTerm = entry.term[0].replace(/:$/, '');
+    return {
+      term: mainTerm,
+      definition: entry.definition[0],
+    };
   }
 
   return null;
