@@ -49,7 +49,7 @@ jobs:
         run: cargo update -p anymap --precise 1.0.0-beta.2
 
       - name: Build
-        run: trunk build --release --public-url /AlterHuman-Dictionary-Unoficial-Discord-Bot/
+        run: trunk build --release 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
