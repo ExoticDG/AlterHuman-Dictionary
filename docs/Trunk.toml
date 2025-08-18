@@ -1,0 +1,8 @@
+[serve]
+# The address to serve on.\crates\tower-http
+# because of cookies / security / cors / whatnot this needs to be the 'public' ip address of the server
+address = "127.0.0.1"
+# The port to serve on.
+port = 8080
+target = "index.html"
+dist = "dist"
