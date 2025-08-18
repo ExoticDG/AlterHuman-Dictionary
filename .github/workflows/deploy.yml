@@ -43,7 +43,7 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
       - name: Install Trunk
-        run: cargo install --locked trunk
+        uses: jetli/trunk-action@v0.5.1
 
       - name: Update dependencies
         run: cargo update
