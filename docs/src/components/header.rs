@@ -56,7 +56,8 @@ impl Component for Header {
                     class="w-12"
                     onclick={ctx.link().callback(|_| Msg::ButtonClick)}
                     />
-                <Link<Route> to={Route::Homepage}>{"Protect the puppy!"}</Link<Route>>
+                <Link<Route> to={Route::Homepage}>{"Unofficial AlterHuman Dictionary Discord Bot"}</Link<Route>>
+                <a href="https://alterhuman-dictionary.neocities.org/"><img src="https://alterhuman-dictionary.neocities.org/button.png" /></a>
             </div>
         }
     }

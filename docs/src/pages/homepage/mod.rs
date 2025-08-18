@@ -21,7 +21,8 @@ impl Component for Homepage {
         html! {
             <div class="flex flex-col flex-1">
                 <HeroImage
-                    text={"Protect the puppy!"}
+                    text={"Download : https://discord.com/oauth2/authorize?client_id=1400164774863437895"}
+
                 />
                 <div class="bg-slate-500 flex flex-row flex-wrap gap-12">
                     <div class="bg-contain bg-no-repeat bg-center w-1/3">

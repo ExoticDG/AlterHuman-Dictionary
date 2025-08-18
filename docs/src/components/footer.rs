@@ -29,7 +29,7 @@ impl Component for Footer {
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
             <div class="h-12 bg-zinc-600 pl-10 place-content-center">
-                {"Help out your local dog shelter so less dogs will get killed each year."}
+                {"The Unofficial AlterHuman Dictionary Discord Bot. Created by ExoticDarknessGaming/Dr. Nova Shadowtail. Based upon the AlterHuman Dictionary https://alterhuman-dictionary.neocities.org"}
             </div>
         }
     }
