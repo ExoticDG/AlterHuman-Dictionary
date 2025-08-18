@@ -46,7 +46,7 @@ jobs:
         uses: jetli/trunk-action@v0.5.1
 
       - name: Update dependencies
-        run: cargo update
+        run: cargo update -p anymap --precise 1.0.0-beta.2
 
       - name: Build
         run: trunk build --release --public-url /AlterHuman-Dictionary-Unoficial-Discord-Bot/
